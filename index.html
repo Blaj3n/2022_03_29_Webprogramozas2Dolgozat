@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Ulrich Bence</title>
+</head>
+
+<body>
+    <div id="urlap">
+        <form action="results.html" method="GET">
+            <fieldset id="elso">
+                <legend>Adatok:</legend>
+                <div id="username">
+                    <label for="fnev">Felhasználói név:</label>
+                    <input type="text" id="fnev" name="fnev" placeholder="goumet_1" required>
+                </div>
+                <div id="password">
+                    <label for="password">Jelszó:</label>
+                    <input type="password" id="password" name="password" placeholder="jelszó" required>
+                </div>
+            </fieldset>
+            <fieldset id="masodik">
+                <legend>Kedvenc étel:</legend>
+                <div id="options">
+                    <label for="lehetosegek">Lehetőségek:</label>
+                    <select name="lehetosegek" id="lehetosegek">
+                        <option value="Spagetti">Spagetti</option>
+                        <option value="Palacsinta">Palacsinta</option>
+                        <option value="Rántott Hús">Rántott Hús</option>
+                    </select>
+                </div>
+            </fieldset>
+            <fieldset id="harmadik">
+                <legend for="bio">Étel-allergiák:</legend>
+                <div id="bio">
+                    <textarea id="bio" name="bio">Glutén-érzékenység, tej érzékenység, mogyoró-allergia...
+                    </textarea>
+                </div>
+            </fieldset>
+            <button type="submit">Küldés</button>
+        </form>
+    </div>
+</body>
+</html>
